@@ -1,0 +1,5 @@
+SerbianDice.sln.ide/**
+SerbianDice/bin/**
+*.suo
+SerbianDice/obj/**
+SerbianDice/obj/Debug/SerbianDice.csproj.FileListAbsolute.txt
