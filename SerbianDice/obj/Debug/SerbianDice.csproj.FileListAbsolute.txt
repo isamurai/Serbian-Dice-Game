@@ -1,0 +1,6 @@
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\bin\Debug\SerbianDice.exe.config
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\bin\Debug\SerbianDice.exe
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\bin\Debug\SerbianDice.pdb
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\obj\Debug\SerbianDice.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\obj\Debug\SerbianDice.exe
+C:\Users\Tom\Google Drive\projects\SerbianDice\SerbianDice\obj\Debug\SerbianDice.pdb
