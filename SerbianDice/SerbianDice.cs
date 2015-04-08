@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SerbianDice
 {
-    class SerbianDice
+    public class SerbianDice
     {
         const int diceMax = 6;
         public List<int> Dices;
@@ -34,6 +34,7 @@ namespace SerbianDice
                     Console.WriteLine("End of the turn. Total points: " + TotalPoints);
                     return;
                 }
+                
             }            
         }
 
@@ -117,7 +118,7 @@ namespace SerbianDice
 
         public bool SelectDices()
         {
-            Console.WriteLine("Pick dices to keep, no one to end turn, \"a\" for all");
+            Console.WriteLine("Pick dices to keep, none to end turn, \"a\" for all");
             var userChoice = Console.ReadLine();
 
             if (userChoice == "")

@@ -10,9 +10,12 @@ namespace SerbianDice
     {
         static void Main(string[] args)
         {
-            var playersCount = 2;
+            const int targetScore = 10000;
+            var playersCount = new CountingPlayers();
             var playlers = new int[playersCount];
             var i = 0;
+            
+
             while (true)
             {
                 Console.WriteLine("Player" + (i+1) + "'s turn (total: " + playlers[i] + ")");
@@ -22,11 +25,19 @@ namespace SerbianDice
                 var game = new SerbianDice();
                 game.play();
                 playlers[i] += game.TotalPoints;
+                if (playlers[i] == targetScore) { 
+                    Console.WriteLine("player {0} win!", i + 1);
+                    break;
+                }
+                if (playlers[i] > targetScore)
+                {
+                    playlers[i] = playlers[i] % targetScore;
+                }
                 i = (i + 1) % playersCount;
                 Console.WriteLine();
                 Console.WriteLine();
             }
-
+            Console.Read();
         }
 
         public static void Stats(){
